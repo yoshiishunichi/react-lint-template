@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-prettier",
+    "stylelint-config-recess-order",
+    "stylelint-config-recommended-scss",
+    "stylelint-config-standard"
+  ],
+  "rules": {
+    "selector-class-pattern": "^[a-z][a-zA-Z0-9-]+$"
+  }
+}
